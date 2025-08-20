@@ -13,17 +13,15 @@
         <tr>
           <th>Nome</th>
           <th>Preço</th>
-          <!-- <th>Estoque</th> -->
+          <th>Estoque</th>
         </tr>
       </thead>
       <tbody>
-        {% for produto in produtos %}
         <tr>
-          <td><a href="/produto/{{ produto.id }}">{{ produto.nome }}</a></td>
+          <td><a href="/">{{ produto.nome }}</a></td>
           <td>{{ produto.preco }}</td>
-          <!-- <td>{{ produto.estoque }}</td> -->
+          <td>{{ produto.estoque }}</td>
         </tr>
-        {% endfor %}
       </tbody>
     </table>
   </body>
