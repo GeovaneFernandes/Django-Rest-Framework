@@ -1,0 +1,1 @@
+web: gunicorn DjangoRestFramework.wsgi --log-file -
